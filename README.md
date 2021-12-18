@@ -27,3 +27,10 @@ After you started the setup everything will be set up automaticly
  </ul>
   <li>Preparation for option</li>
 </ul>
+
+TODO:
+- [x] Base system
+- [x] Basic interface
+- [ ] Blender installation
+- [ ] Cloud gaming
+- [ ] Remote controll system
