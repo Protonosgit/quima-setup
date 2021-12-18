@@ -1,4 +1,4 @@
-# H1 quima-setup
+# quima-setup
  Quick virtual machine setup management
  
  
@@ -28,7 +28,7 @@ After you started the setup everything will be set up automaticly
   <li>Preparation for option</li>
 </ul>
 
-# H2 TODO:
+# TODO:
 - [x] Base system
 - [x] Basic interface
 - [ ] Blender installation/rendering
