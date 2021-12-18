@@ -21,9 +21,9 @@ After you started the setup everything will be set up automaticly
   <li>Wallpaper</li>
   <li>Chrome</li>
   <li>Networking</li>
- <ul>
-  <li> item 1 </li>
-  <li> item 2 </li>
-  <li> item 3 </li>
-</ul>
+  <ul>
+   <li>Connectivity </li>
+   <li>Unblock</li>
+ </ul>
+  <li>Preparation for option</li>
 </ul>
