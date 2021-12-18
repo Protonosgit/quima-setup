@@ -16,6 +16,8 @@ IF %M%==3 GOTO C
 :A
 bitsadmin /transfer quimadown /download /priority normal https://raw.githubusercontent.com/Protonosgit/quima-setup/main/downhill.png c:\tmp\quima\wall.png
 reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d c:\tmp\quima\wall.png /f
+set imgPath=c:\tmp\quima\wall.png
+[Win32.Wallpaper]::SetWallpaper($imgPath)
 
 :B
 $Path = $env:TEMP; $Installer = "chrome_installer.exe"; Invoke-WebRequest "http://dl.google.com/chrome/install/375.126/chrome_installer.exe" -OutFile $Path\$Installer; Start-Process -FilePath $Path\$Installer -Args "/silent /install" -Verb RunAs -Wait; Remove-Item $Path\$Installer
