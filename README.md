@@ -1,2 +1,5 @@
 # H1 quima-setup
-# P Quick ivrtual machine setup management
+ Quick ivrtual machine setup management
+ 
+ To run the script just paste this code into powershell:
+ ´´´print("hello")´´´
