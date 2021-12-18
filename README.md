@@ -1,5 +1,8 @@
 # H1 quima-setup
- Quick ivrtual machine setup management
+ Quick virtual machine setup management
+ 
+ 
+ To start the proccess just paste this command into powershell on your target machine
  
 ```Batch
 New-Item -ItemType "directory" -Path "c:\tmp\quima\"
