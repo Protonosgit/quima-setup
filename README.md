@@ -28,9 +28,9 @@ After you started the setup everything will be set up automaticly
   <li>Preparation for option</li>
 </ul>
 
-TODO:
+# H2 TODO:
 - [x] Base system
 - [x] Basic interface
-- [ ] Blender installation
+- [ ] Blender installation/rendering
 - [ ] Cloud gaming
 - [ ] Remote controll system
