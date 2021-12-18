@@ -14,8 +14,8 @@ IF %M%==2 GOTO B
 IF %M%==3 GOTO C
 
 :A
-bitsadmin.exe /transfer "JobName" https://raw.githubusercontent.com/Protonosgit/quima-setup/main/downhill.png c:tmp\quima\downhill.png
-reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d c:\tmp\quima\downhill.png /f
+bitsadmin /transfer quimadown /download /priority normal https://raw.githubusercontent.com/Protonosgit/quima-setup/main/downhill.png c:\tmp\quima\wall.png
+reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d c:\tmp\quima\wall.png /f
 
 :B
 $Path = $env:TEMP; $Installer = "chrome_installer.exe"; Invoke-WebRequest "http://dl.google.com/chrome/install/375.126/chrome_installer.exe" -OutFile $Path\$Installer; Start-Process -FilePath $Path\$Installer -Args "/silent /install" -Verb RunAs -Wait; Remove-Item $Path\$Installer
