@@ -28,7 +28,7 @@ After you started the setup everything will be set up automaticly
   <li>Preparation for option</li>
 </ul>
 
-# TODO:
+# Todo:
 - [x] Base system
 - [x] Basic interface
 - [ ] Blender installation/rendering
