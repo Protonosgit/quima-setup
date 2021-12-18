@@ -1,4 +1,4 @@
-# quima-setup
+# QuiMa-setup:
  Quick virtual machine setup management
  
  
@@ -34,3 +34,9 @@ After you started the setup everything will be set up automaticly
 - [ ] Blender installation/rendering
 - [ ] Cloud gaming
 - [ ] Remote controll system
+
+# About:
+Quickmagic setup was made for quick deployment of basic software on remote controlled windows machines
+The tool is not finished yet and does not offer all functions at this time.
+Bugs are NORMAL
+[This tool is not made for use on standard pc's]
