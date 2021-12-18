@@ -1,7 +1,9 @@
 # H1 quima-setup
  Quick ivrtual machine setup management
  
- To run the script just paste this code into powershell:
- ´´´Python
- print("hello")
- ´´´
+```JavaScript
+function add(a, b){
+   return a + b;
+}
+add(3, 4);
+```
